@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `AI Governance in 2019: A Year in Review Observations of 50 Global Experts`,
+    description: `The emergence of AI governance issues has attracted the attention of 
+      experts in the field of traditional humanities and social sciences, which helped 
+      open up new research directions. Read the report here.`,
+    author: `Shanghai Institute for Science of Science`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
