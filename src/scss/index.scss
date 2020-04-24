@@ -1,9 +1,9 @@
-// Settings
-@import 'variables';
-
 // Libraries
 @import '../../node_modules/normalize-scss/sass/normalize';
 @import '../../node_modules/system-font-css/system-font';
+
+// Settings
+@import 'variables';
 
 // Global styles
 @include normalize;
