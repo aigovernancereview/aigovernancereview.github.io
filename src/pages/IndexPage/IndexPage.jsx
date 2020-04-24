@@ -4,6 +4,8 @@ import Layout from '../../components/Layout';
 import Section from '../../components/Section';
 import SEO from '../../components/SEO';
 
+import PDF from '../../assets/aiGovernanceIn2019.pdf';
+
 const IndexPage = () => (
   <>
     <SEO title="AI Governance in 2019: A Year in Review Observations of 50 Global Experts" />
@@ -32,11 +34,14 @@ const IndexPage = () => (
         <article>
           <h2>About the report</h2>
           <p>
-            The report was contributed by 50 experts from 44 institutions, including AI scientists,
+            {`The report was contributed by 50 experts from 44 institutions, including AI scientists,
             academic researchers, industry representatives, policy experts, and others. This group
             of experts covers a wide range of regional developments and perspectives, including
-            those in the United States, Europe and Asia. For a full list of contributors, see the
-            report.
+            those in the United States, Europe and Asia. For a full list of contributors, `}
+            <a href={PDF} download title="Download to read the report">
+              see the report
+            </a>
+            .
           </p>
         </article>
         <article>
