@@ -1,6 +1,9 @@
 import React from 'react';
 
+import Button from '../Button';
 import Container from '../Container';
+import PDF from '../../assets/aiGovernanceIn2019.pdf';
+
 import styles from './Header.module.scss';
 
 const Header = () => (
@@ -10,6 +13,9 @@ const Header = () => (
       <h2 className={styles.Header__Subtitle}>
         A Year in Review Observations of 50 Global Experts
       </h2>
+      <div className={styles.Header__CallToAction}>
+        <Button label="Download Report" to={PDF} isDownload />
+      </div>
     </Container>
   </header>
 );
