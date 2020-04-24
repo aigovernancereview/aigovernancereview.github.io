@@ -9,6 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
+import Footer from '../Footer';
 import Header from '../Header';
 import './Layout.css';
 
@@ -34,10 +35,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          {`This site is maintained by `}
-          <a href="https://www.github.com/olyism">Oly Su</a>
-        </footer>
+        <Footer />
       </div>
     </>
   );
