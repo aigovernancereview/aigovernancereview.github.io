@@ -7,6 +7,7 @@ module.exports = {
     author: `Shanghai Institute for Science of Science`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
