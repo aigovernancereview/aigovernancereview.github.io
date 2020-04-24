@@ -1,12 +1,15 @@
 import React from 'react';
 
 import Container from '../Container';
+import styles from './Footer.module.scss';
 
 const Footer = () => (
-  <footer>
+  <footer className={styles.Footer}>
     <Container>
       {`This site is maintained by `}
-      <a href="https://www.github.com/olyism">Oly Su</a>
+      <a className={styles.Footer__Link} href="https://www.github.com/olyism">
+        Oly Su
+      </a>
     </Container>
   </footer>
 );
