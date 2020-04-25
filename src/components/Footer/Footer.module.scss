@@ -1,0 +1,14 @@
+@import '../../scss/variables';
+
+.Footer {
+  background: $gray-base;
+  color: $gray-bright;
+  font-size: $h5-font-size;
+  padding: $spacing-large;
+  text-align: right;
+}
+
+.Footer__Link {
+  color: $gray-pale;
+  text-decoration: none;
+}
