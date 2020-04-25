@@ -6,6 +6,7 @@ module.exports = {
       open up new research directions. Read the report here.`,
     author: `Shanghai Institute for Science of Science`,
   },
+  pathPrefix: `/public`,
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
