@@ -1,0 +1,24 @@
+@import '../../scss/variables';
+
+.Header {
+  background: $color-brand;
+  padding-bottom: $spacing-xl;
+  padding-top: $spacing-xl;
+  text-align: center;
+}
+
+.Header__Title {
+  color: $white;
+  margin: 0 0 $spacing-medium;
+}
+
+.Header__Subtitle {
+  color: $white;
+  font-weight: normal;
+  margin: $spacing-none;
+}
+
+.Header__CallToAction {
+  padding: $spacing-large 0 0;
+  text-align: center;
+}
