@@ -1,0 +1,28 @@
+@import '../../scss/variables';
+
+.Hero {
+  background: $color-brand;
+  padding: $spacing-small;
+  text-align: center;
+}
+
+.Hero__HeadingGroup {
+  background: $white;
+  color: $color-brand;
+  margin: $spacing-large auto;
+  padding: $spacing-large;
+}
+
+.Hero__Heading {
+  margin: $spacing-none;
+}
+
+.Hero__Subheading {
+  font-weight: normal;
+  margin: $spacing-none;
+}
+
+.Hero__CallToAction {
+  padding: $spacing-large 0 0;
+  text-align: center;
+}
