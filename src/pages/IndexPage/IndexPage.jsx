@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Section from '../../components/Section';
 import SEO from '../../components/SEO';
+import Spacer from '../../components/Spacer';
 
 import PDF from '../../assets/aiGovernanceIn2019.pdf';
 
@@ -27,6 +28,7 @@ const IndexPage = () => (
             policy developments in artificial intelligence. Yet in 2019, this became an arduous task
             for researchers and policymakers.
           </p>
+          <Spacer />
         </article>
       </Section>
       <Section>
@@ -45,6 +47,7 @@ const IndexPage = () => (
             .
           </p>
         </article>
+        <Spacer />
         <article>
           <h2>Feedback</h2>
           <p>
@@ -55,6 +58,7 @@ const IndexPage = () => (
             <a href="mailto:globalaigovernance@gmail.com">globalaigovernance@gmail.com</a>
           </p>
         </article>
+        <Spacer />
       </Section>
     </Layout>
   </>

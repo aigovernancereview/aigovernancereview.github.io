@@ -21,7 +21,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.0.0",
-    "system-font-css": "^2.0.2"
+    "system-font-css": "^2.0.2",
+    "typeface-roboto-condensed": "^0.0.75"
   },
   "devDependencies": {
     "eslint": "6.8.0",

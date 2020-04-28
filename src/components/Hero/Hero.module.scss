@@ -1,0 +1,31 @@
+@import '../../../node_modules/normalize-scss/sass/normalize/vertical-rhythm';
+@import '../../scss/variables';
+
+.Hero {
+  background: $color-brand;
+  padding: $spacing-small;
+  text-align: center;
+}
+
+.Hero__HeadingGroup {
+  background: $white;
+  color: $color-brand;
+  margin: $spacing-large auto;
+  padding: $spacing-large;
+}
+
+.Hero__Heading {
+  margin: $spacing-none;
+}
+
+.Hero__Subheading {
+  @include normalize-line-height(32px);
+  line-height: 32px;
+  font-size: 25px;
+  margin: $spacing-none;
+}
+
+.Hero__CallToAction {
+  padding: $spacing-small 0 0;
+  text-align: center;
+}
