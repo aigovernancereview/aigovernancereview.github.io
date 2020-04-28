@@ -11,7 +11,7 @@ const Header = () => (
     <Container>
       <h1 className={styles.Header__Title}>AI Governance in 2019</h1>
       <h2 className={styles.Header__Subtitle}>
-        A Year in Review Observations of 50 Global Experts
+        A Year in Review: Observations from 50 Global Experts
       </h2>
       <div className={styles.Header__CallToAction}>
         <Button label="Download Report" to={PDF} isDownload />
