@@ -1,0 +1,12 @@
+@import '../../scss/variables';
+
+.Divider {
+  border-color: $gray-light;
+  border-style: solid;
+  border-width: 0 0 1px;
+  margin: $spacing-medium 0;
+}
+
+.Divider--blue {
+  border-color: $color-brand;
+}
