@@ -10,7 +10,7 @@ import styles from './Hero.module.scss';
 const Hero = () => (
   <header className={styles.Hero}>
     <Container>
-      <div className={styles.Hero__HeadingGroup}>
+      <article className={styles.Hero__HeadingGroup}>
         <h1 className={styles.Hero__Heading}>AI Governance in 2019</h1>
         <Divider color="brand" />
         <h2 className={styles.Hero__Subheading}>
@@ -20,7 +20,7 @@ const Hero = () => (
         <div className={styles.Hero__CallToAction}>
           <Button label="Download Report" to={PDF} isDownload />
         </div>
-      </div>
+      </article>
     </Container>
   </header>
 );

@@ -1,3 +1,4 @@
+@import '../../../node_modules/normalize-scss/sass/normalize/vertical-rhythm';
 @import '../../scss/variables';
 
 .Hero {
@@ -18,7 +19,9 @@
 }
 
 .Hero__Subheading {
-  font-weight: normal;
+  @include normalize-line-height(32px);
+  line-height: 32px;
+  font-size: 25px;
   margin: $spacing-none;
 }
 

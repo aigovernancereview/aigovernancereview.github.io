@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Section from '../../components/Section';
 import SEO from '../../components/SEO';
+import Spacer from '../../components/Spacer';
 
 import PDF from '../../assets/aiGovernanceIn2019.pdf';
 
@@ -28,6 +29,7 @@ const IndexPage = () => (
             decided to invite some of the world renowned experts to review the progress in AI
             governance during the year.
           </p>
+          <Spacer />
         </article>
       </Section>
       <Section>
@@ -44,6 +46,7 @@ const IndexPage = () => (
             .
           </p>
         </article>
+        <Spacer />
         <article>
           <h2>Feedback</h2>
           <p>
@@ -54,6 +57,7 @@ const IndexPage = () => (
             <a href="mailto:globalaigovernance@gmail.com">globalaigovernance@gmail.com</a>
           </p>
         </article>
+        <Spacer />
       </Section>
     </Layout>
   </>
