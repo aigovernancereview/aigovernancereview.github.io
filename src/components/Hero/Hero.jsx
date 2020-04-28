@@ -16,9 +16,10 @@ const Hero = () => (
         <h2 className={styles.Hero__Subheading}>
           A Year in Review: Observations from 50 Global Experts
         </h2>
-      </div>
-      <div className={styles.Hero__CallToAction}>
-        <Button label="Download Report" to={PDF} isDownload />
+        <Divider color="brand" />
+        <div className={styles.Hero__CallToAction}>
+          <Button label="Download Report" to={PDF} isDownload />
+        </div>
       </div>
     </Container>
   </header>
