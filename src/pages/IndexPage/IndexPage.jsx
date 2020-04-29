@@ -9,7 +9,7 @@ import PDF from '../../assets/aiGovernanceIn2019.pdf';
 
 const IndexPage = () => (
   <>
-    <SEO title="AI Governance in 2019: A Year in Review Observations of 50 Global Experts" />
+    <SEO title="AI Governance in 2019 - A Year in Review: Observations from 50 Global Experts" />
     <Layout>
       <Section isWhite>
         <article>
