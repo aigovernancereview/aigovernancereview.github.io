@@ -5,7 +5,7 @@ import Section from '../../components/Section';
 import SEO from '../../components/SEO';
 import Spacer from '../../components/Spacer';
 
-import PDF from '../../assets/aiGovernanceIn2019.pdf';
+import PDF from '../../assets/AI-Governance-in-2019.pdf';
 
 const IndexPage = () => (
   <>
