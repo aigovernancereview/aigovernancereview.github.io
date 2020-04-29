@@ -2,16 +2,30 @@
 @import '../../scss/variables';
 
 .Hero {
-  background: $color-brand;
-  padding: $spacing-small;
+  align-items: center;
+  background-color: $color-brand;
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-size: 600px;
+  display: flex;
+  justify-content: center;
+  padding: $spacing-medium 0;
   text-align: center;
+
+  @media (min-width: 768px) {
+    background-position: 50% 6px;
+    background-size: 1218px;
+    min-height: 686px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 }
 
 .Hero__HeadingGroup {
   background: $white;
   color: $color-brand;
-  margin: $spacing-large auto;
-  padding: $spacing-large;
+  margin: 0 auto;
+  padding: 39px $spacing-large;
 }
 
 .Hero__Heading {
