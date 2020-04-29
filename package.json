@@ -2,7 +2,7 @@
   "name": "aigovernancereview.com",
   "private": true,
   "description": "aigovernancereview.com website",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "author": "Oly Su <taiya1229@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
