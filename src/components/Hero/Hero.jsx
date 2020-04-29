@@ -3,7 +3,7 @@ import React from 'react';
 import Button from '../Button';
 import Container from '../Container';
 import Divider from '../Divider';
-import PDF from '../../assets/aiGovernanceIn2019.pdf';
+import PDF from '../../assets/AI-Governance-in-2019.pdf';
 
 import styles from './Hero.module.scss';
 

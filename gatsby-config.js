@@ -1,9 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `AI Governance in 2019: A Year in Review Observations of 50 Global Experts`,
-    description: `The emergence of AI governance issues has attracted the attention of 
-      experts in the field of traditional humanities and social sciences, which helped 
-      open up new research directions. Read the report here.`,
+    title: `AI Governance in 2019 - A Year in Review: Observations from 50 Global Experts`,
+    description: `The impact of emerging technologies might prove to be an inflection point in human history that will continually affect virtually all aspects of society over the coming decades. Read the report here.`,
     author: `Shanghai Institute for Science of Science`,
   },
   plugins: [
