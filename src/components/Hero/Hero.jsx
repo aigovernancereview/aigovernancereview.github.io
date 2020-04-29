@@ -5,11 +5,10 @@ import Container from '../Container';
 import Divider from '../Divider';
 import PDF from '../../assets/AI-Governance-in-2019.pdf';
 
-import backgroundImg from '../../images/background.jpg';
 import styles from './Hero.module.scss';
 
 const Hero = () => (
-  <header className={styles.Hero} style={{ backgroundImage: `url(${backgroundImg})` }}>
+  <header className={styles.Hero}>
     <Container>
       <article className={styles.Hero__HeadingGroup}>
         <h1 className={styles.Hero__Heading}>AI Governance in 2019</h1>
