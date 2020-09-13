@@ -6,6 +6,7 @@ import SEO from '../../components/SEO';
 import Spacer from '../../components/Spacer';
 
 import PDF from '../../assets/AI-Governance-in-2019.pdf';
+import PDF_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
 
 const IndexPage = () => (
   <>
@@ -37,12 +38,16 @@ const IndexPage = () => (
             The report was contributed by 50 experts from 44 institutions, including AI scientists,
             academic researchers, industry representatives, policy experts, and others. This group
             of experts covers a wide range of regional developments and perspectives, including
-            those in the United States, Europe and Asia. For a full list of contributors,
-            {` `}
-            <a href={PDF} download title="Download to read the report">
-              see the report
+            those in the United States, Europe and Asia. For a full list of contributors, 
+            see the report (
+            <a href={PDF} download title="Download to read the report in English">
+              English version
             </a>
-            .
+            {` / `}
+            <a href={PDF} download title="下載中文版">
+              中文版
+            </a>
+            ).
           </p>
         </article>
         <Spacer />
