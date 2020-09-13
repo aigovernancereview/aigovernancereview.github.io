@@ -4,6 +4,7 @@ import Button from '../Button';
 import Container from '../Container';
 import Divider from '../Divider';
 import PDF from '../../assets/AI-Governance-in-2019.pdf';
+import PDF_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
 
 import styles from './Hero.module.scss';
 
@@ -17,8 +18,10 @@ const Hero = () => (
           A Year in Review: Observations from 50 Global Experts
         </h2>
         <Divider color="brand" />
+        <strong>Download report</strong>
         <div className={styles.Hero__CallToAction}>
-          <Button label="Download Report" to={PDF} isDownload />
+          <Button className={styles.Hero__Button} label="English version" to={PDF} isDownload />
+          <Button className={styles.Hero__Button} label="下載中文版" to={PDF_CN} isDownload />
         </div>
       </article>
     </Container>
