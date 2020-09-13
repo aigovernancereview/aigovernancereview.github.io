@@ -29,3 +29,12 @@
   padding: $spacing-small 0 0;
   text-align: center;
 }
+
+.Hero__Button {
+  margin-bottom: $spacing-small;
+
+  @media (min-width: 512px) {
+    margin-left: $spacing-small;
+    margin-right: $spacing-small;
+  }
+}
