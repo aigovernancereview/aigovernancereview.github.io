@@ -44,7 +44,7 @@ const IndexPage = () => (
               English version
             </a>
             {` / `}
-            <a href={PDF} download title="下載中文版">
+            <a href={PDF_CN} download title="下載中文版">
               中文版
             </a>
             ).
