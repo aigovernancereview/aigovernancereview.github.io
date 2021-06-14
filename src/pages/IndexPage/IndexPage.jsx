@@ -15,18 +15,13 @@ const IndexPage = () => (
       <Section isWhite>
         <article>
           <p>
-            The impact of emerging technologies might prove to be an inflection point in human
-            history that will continually affect virtually all aspects of society over the coming
-            decades. Under these conditions, AI is the linchpin accelerating and amplifying the
-            development of all fields of research. With the rapid advancement of machine learning in
-            recent years, the governance of artificial intelligence has gradually come under the
-            spotlight. It was once possible to keep track of all the research institutes,
-            conferences and policy developments in artificial intelligence. Yet in 2019, this became
-            an arduous task for researchers and policymakers.
+            Although full of challenges, the year of 2020 was marvelous for Artificial Intelligence (AI).
           </p>
           <p>
-            To separate the signal from the noise for interested stakeholders, we invited some
-            world-renowned experts to review the progress in AI governance over 2019.
+            The outbreak and spread of the COVID-19 pandemic significantly impacted the economic and social
+            development of countries around the world. Policymakers and researchers around the world had
+            to hurriedly put aside all their plans and spared no effort to deal with this disruptive new issue.
+            As we see, AI governance is a sub-topic under this major issue.
           </p>
           <Spacer />
         </article>
@@ -35,7 +30,7 @@ const IndexPage = () => (
         <article>
           <h2>About the report</h2>
           <p>
-            The report was contributed by 50 experts from 44 institutions, including AI scientists,
+            The report was contributed by 50 experts from 47 institutions, including AI scientists,
             academic researchers, industry representatives, policy experts, and others. This group
             of experts covers a wide range of regional developments and perspectives, including
             those in the United States, Europe and Asia. For a full list of contributors, 
@@ -44,7 +39,7 @@ const IndexPage = () => (
               English version
             </a>
             {` / `}
-            <a href={PDF_CN} download title="下載中文版">
+            <a href={PDF_CN} download title="下载中文版">
               中文版
             </a>
             ).

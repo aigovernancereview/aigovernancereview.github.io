@@ -12,16 +12,16 @@ const Hero = () => (
   <header className={styles.Hero}>
     <Container>
       <article className={styles.Hero__HeadingGroup}>
-        <h1 className={styles.Hero__Heading}>AI Governance in 2019</h1>
+        <h1 className={styles.Hero__Heading}>AI Governance in 2020</h1>
         <Divider color="brand" />
         <h2 className={styles.Hero__Subheading}>
-          A Year in Review: Observations from 50 Global Experts
+          A Year in Review: Observations from 52 Global Experts
         </h2>
         <Divider color="brand" />
         <strong>Download report</strong>
         <div className={styles.Hero__CallToAction}>
           <Button className={styles.Hero__Button} label="English version" to={PDF} isDownload />
-          <Button className={styles.Hero__Button} label="下載中文版" to={PDF_CN} isDownload />
+          <Button className={styles.Hero__Button} label="下载中文版" to={PDF_CN} isDownload />
         </div>
       </article>
     </Container>
