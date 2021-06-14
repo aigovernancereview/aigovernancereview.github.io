@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import Quote from '../../components/Quote';
 import Section from '../../components/Section';
 import SEO from '../../components/SEO';
 import Spacer from '../../components/Spacer';
@@ -13,7 +14,12 @@ const IndexPage = () => (
     <SEO title="AI Governance in 2019 - A Year in Review: Observations from 50 Global Experts" />
     <Layout>
       <Section isWhite>
+        <Spacer />
         <article>
+          <Quote
+            quote="When people pull together, nothing is too heavy to be lifted."
+            author="Bao Puzi"
+          />
           <p>
             Although full of challenges, the year of 2020 was marvelous for Artificial Intelligence (AI).
           </p>

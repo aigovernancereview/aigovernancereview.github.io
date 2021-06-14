@@ -1,0 +1,14 @@
+@import '../../scss/variables';
+
+.Quote {
+  color: $gray-light;
+  margin: 0 0 $spacing-large;
+}
+
+.Quote__Blockquote {
+  background: $gray-pale;
+  border-radius: $border-radius;
+  font-style: oblique;
+  margin: 0 0 $spacing-small;
+  padding: $spacing-xs $spacing-medium;
+}
