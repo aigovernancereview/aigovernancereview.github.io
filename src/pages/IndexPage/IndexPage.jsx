@@ -30,7 +30,7 @@ const IndexPage = () => (
         <article>
           <h2>About the report</h2>
           <p>
-            The report was contributed by 50 experts from 47 institutions, including AI scientists,
+            The report was contributed by 52 experts from 47 institutions, including AI scientists,
             academic researchers, industry representatives, policy experts, and others. This group
             of experts covers a wide range of regional developments and perspectives, including
             those in the United States, Europe and Asia. For a full list of contributors, 
