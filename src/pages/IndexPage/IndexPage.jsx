@@ -6,7 +6,7 @@ import Section from '../../components/Section';
 import SEO from '../../components/SEO';
 import Spacer from '../../components/Spacer';
 
-import PDF from '../../assets/AI-Governance-in-2019.pdf';
+import PDF from '../../assets/AI-Governance-in-2020.pdf';
 import PDF_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
 
 const IndexPage = () => (
