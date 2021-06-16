@@ -11,7 +11,7 @@ import PDF_CN from '../../assets/2019全球人工智能治理年度观察中文�
 
 const IndexPage = () => (
   <>
-    <SEO title="AI Governance in 2019 - A Year in Review: Observations from 50 Global Experts" />
+    <SEO title="AI Governance in 2020 - A Year in Review: Observations from 52 Global Experts" />
     <Layout>
       <Section isWhite>
         <Spacer />
