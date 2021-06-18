@@ -3,8 +3,8 @@ import React from 'react';
 import Button from '../Button';
 import Container from '../Container';
 import Divider from '../Divider';
-import PDF from '../../assets/AI-Governance-in-2019.pdf';
-import PDF_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
+import PDF_2020 from '../../assets/AI-Governance-in-2020.pdf';
+import PDF_2020_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
 
 import styles from './Hero.module.scss';
 
@@ -20,8 +20,8 @@ const Hero = () => (
         <Divider color="brand" />
         <strong>Download report</strong>
         <div className={styles.Hero__CallToAction}>
-          <Button className={styles.Hero__Button} label="English version" to={PDF} isDownload />
-          <Button className={styles.Hero__Button} label="下载中文版" to={PDF_CN} isDownload />
+          <Button className={styles.Hero__Button} label="English version" to={PDF_2020} isDownload />
+          <Button className={styles.Hero__Button} label="下载中文版" to={PDF_2020_CN} isDownload />
         </div>
       </article>
     </Container>
