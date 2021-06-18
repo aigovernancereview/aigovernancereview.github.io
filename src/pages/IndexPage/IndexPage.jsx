@@ -6,8 +6,10 @@ import Section from '../../components/Section';
 import SEO from '../../components/SEO';
 import Spacer from '../../components/Spacer';
 
-import PDF from '../../assets/AI-Governance-in-2020.pdf';
-import PDF_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
+import PDF_2020 from '../../assets/AI-Governance-in-2020.pdf';
+import PDF_2020_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
+import PDF_2019 from '../../assets/AI-Governance-in-2019.pdf';
+import PDF_2019_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
 
 const IndexPage = () => (
   <>
@@ -41,11 +43,24 @@ const IndexPage = () => (
             of experts covers a wide range of regional developments and perspectives, including
             those in the United States, Europe and Asia. For a full list of contributors, 
             see the report (
-            <a href={PDF} download title="Download to read the report in English">
+            <a href={PDF_2020} download title="Download to read the report in English">
               English version
             </a>
             {` / `}
-            <a href={PDF_CN} download title="下载中文版">
+            <a href={PDF_2020_CN} download title="下载中文版">
+              中文版
+            </a>
+            ).
+          </p>
+          <Spacer />
+          <h3>Previous reports</h3>
+          <p>
+            You can also view the report from 2019 (
+            <a href={PDF_2019} download title="Download to read the report in English">
+              English version
+            </a>
+            {` / `}
+            <a href={PDF_2019_CN} download title="下载中文版">
               中文版
             </a>
             ).
