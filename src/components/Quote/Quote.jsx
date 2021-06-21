@@ -8,7 +8,7 @@ const Quote = ({ quote, author}) => (
       <p>{quote}</p>
     </blockquote>
     {author && 
-      <figcaption>
+      <figcaption className={styles.Quote__Author}>
         — {author}
       </figcaption>
     }

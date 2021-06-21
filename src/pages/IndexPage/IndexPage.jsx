@@ -20,16 +20,13 @@ const IndexPage = () => (
         <article>
           <Quote
             quote="When people pull together, nothing is too heavy to be lifted."
-            author="Bao Puzi"
+            author="The Baopuzi《抱朴子》"
           />
           <p>
-            Although full of challenges, the year of 2020 was marvelous for Artificial Intelligence (AI).
-          </p>
-          <p>
-            The outbreak and spread of the COVID-19 pandemic significantly impacted the economic and social
-            development of countries around the world. Policymakers and researchers around the world had
-            to hurriedly put aside all their plans and spared no effort to deal with this disruptive new issue.
-            As we see, AI governance is a sub-topic under this major issue.
+            The pandemic in 2020 shows that global catastrophes are live possibilities. 
+            It is a warning shot that should encourage foresight and cooperation for improving the collective resilience of humanity. 
+            In the coming decades, the governance of AI might be one of the most important global issues. 
+            We believe that global and interdisciplinary insights are critical for guiding the development of AI for the common good.
           </p>
           <Spacer />
         </article>
