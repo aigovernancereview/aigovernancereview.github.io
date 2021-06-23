@@ -7,7 +7,6 @@ import SEO from '../../components/SEO';
 import Spacer from '../../components/Spacer';
 
 import PDF_2020 from '../../assets/AI-Governance-in-2020.pdf';
-import PDF_2020_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
 import PDF_2019 from '../../assets/AI-Governance-in-2019.pdf';
 import PDF_2019_CN from '../../assets/2019全球人工智能治理年度观察中文版.pdf';
 
@@ -23,10 +22,11 @@ const IndexPage = () => (
             author="The Baopuzi《抱朴子》"
           />
           <p>
-            The pandemic in 2020 shows that global catastrophes are live possibilities. 
-            It is a warning shot that should encourage foresight and cooperation for improving the collective resilience of humanity. 
-            In the coming decades, the governance of AI might be one of the most important global issues. 
-            We believe that global and interdisciplinary insights are critical for guiding the development of AI for the common good.
+            The pandemic in 2020 shows that global catastrophes are live possibilities. It is a
+            warning shot that should encourage foresight and cooperation for improving the
+            collective resilience of humanity. In the coming decades, the governance of AI might be
+            one of the most important global issues. We believe that global and interdisciplinary
+            insights are critical for guiding the development of AI for the common good.
           </p>
           <Spacer />
         </article>
@@ -38,16 +38,14 @@ const IndexPage = () => (
             The report was contributed by 52 experts from 47 institutions, including AI scientists,
             academic researchers, industry representatives, policy experts, and others. This group
             of experts covers a wide range of regional developments and perspectives, including
-            those in the United States, Europe and Asia. For a full list of contributors, 
-            see the report (
+            those in the United States, Europe and Asia.
+          </p>
+          <p>
+            {'For a full list of contributors, see the '}
             <a href={PDF_2020} download title="Download to read the report in English">
-              English version
+              report
             </a>
-            {` / `}
-            <a href={PDF_2020_CN} download title="下载中文版">
-              中文版
-            </a>
-            ).
+            .
           </p>
           <Spacer />
           <h3>Previous reports</h3>
