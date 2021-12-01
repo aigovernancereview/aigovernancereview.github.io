@@ -1,15 +1,37 @@
-# AI Governance in 2019: A Year in Review
+# AI Governance Review website
 
-## Observations of 50 Global Experts 
+[aigovernancereview.com](https://www.aigovernancereview.com) is a [Gatsby.js](https://www.gatsbyjs.com/) static generated site hosted with [Github Pages](https://pages.github.com)
 
-The impact of emerging technologies might be a seminal inflection point in human history that will continually impact all aspects of society over the coming decades. In that, AI is the linchpin accelerating and amplifying the development of all the fields of research. With the rapid development of machine learning in recent years, the governance of the technology has gradually come under the spotlight. It was once possible to keep track of all the research institutes, conferences and policy developments. In 2019, this became an arduous task for researchers and policymakers. To help separate the signal from the noise for interested stakeholders, we decided to invite some of the world renowned experts to review the key progress in AI governance during the year. 
+## Getting started
 
-## About the report: 
+Prerequisites:
 
-The report was contributed by 50 experts from 44 institutions, including AI scientists, academic researchers, industry representatives, policy experts, and others. This group of experts covers a wide range of regional developments and perspectives, including those in the United States, Europe and Asia. For a full list of contributors, see the report.
+- [node.js](https://nodejs.org): v14
+- Highly recommended:
+  - [nvm](https://github.com/nvm-sh/nvm)
+  - [yarn](https://yarnpkg.com)
 
-## Feedback:  
+1. Run `yarn` to install dependencies
+1. Run `yarn start` to spin up the development site and start working
 
-We welcome questions and comments about the report. Please send them to the executive editors Li Hui and Brian Tse at globalaigovernance@gmail.com. 
+Note: because this is on an older version of Gatsby.js, the `node-sass` package only works on older versions of node.js. The working version I use is `v14.17.4`.
 
-This site is maintained by Oly Su. 
+## Branches
+
+All dev work should be done on feature branches off the `development` branch. The `master` branch is solely reserved for build files in production. As this is quite a simple site, working directly on the `development` branch is fine too.
+
+## Deployment
+
+When you're ready to deploy to Github Pages, checkout to the state you'd like to deploy. I usually merge back to `development` and tag the version I wish to deploy.
+
+1. To deploy, run `yarn deploy`, which will run Gatsby.js to build the production assets and deploy to the `master` branch.
+1. **Important**: you'll also need to log into GitHub settings for this page, and _manually_ change the domain from the default Github Pages domain to the custom `www.aigovernancereview.com` domain
+
+Step 2 is a problem I've yet to find the time to fix. I think it's due to the `CNAME` file not being stored on the root folder?
+
+## Issues
+
+1. Every deployment changes the domain back to the default GitHub Pages domain
+1. `node-sass` doesn't work on newer versions of node.js
+
+This site is maintained by [Oly Su](https://www.github.com/olyism). 
